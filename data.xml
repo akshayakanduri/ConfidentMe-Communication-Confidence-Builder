@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appData>
+    <moods>
+        <mood id="nervous">
+            <keywords>nervous,anxious,worried,scared,fear</keywords>
+            <emotion>Nervous / Anxious</emotion>
+            <explanation>It's completely normal to feel this way. Your body is just preparing you for a challenge by giving you extra energy.</explanation>
+            <actions>
+                <action>Take 3 deep breaths (inhale for 4s, hold for 4s, exhale for 4s).</action>
+                <action>Focus on one friendly face in the room.</action>
+                <action>Remind yourself: "I have prepared for this."</action>
+            </actions>
+            <quote>Confidence comes not from always being right, but from not fearing to be wrong.</quote>
+            <actionSuggestion>Speak once in class today.</actionSuggestion>
+        </mood>
+        <mood id="shy">
+            <keywords>shy,quiet,awkward,embarrassed,timid</keywords>
+            <emotion>Shy / Timid</emotion>
+            <explanation>Being shy means you are observant and thoughtful. You don't have to be the loudest person to make an impact.</explanation>
+            <actions>
+                <action>Start a conversation with just 1 person today.</action>
+                <action>Smile and make eye contact when someone speaks to you.</action>
+                <action>Ask one simple question to show interest.</action>
+            </actions>
+            <quote>Your voice matters, even if it shakes.</quote>
+            <actionSuggestion>Start a conversation with 1 person.</actionSuggestion>
+        </mood>
+        <mood id="confident">
+            <keywords>confident,good,great,happy,ready,excited</keywords>
+            <emotion>Confident / Ready</emotion>
+            <explanation>You are in a great state of mind! Use this energy to push your boundaries further.</explanation>
+            <actions>
+                <action>Volunteer for a task or answer a question.</action>
+                <action>Compliment someone else to share your positive energy.</action>
+                <action>Take the lead on a small project.</action>
+            </actions>
+            <quote>Believe you can and you're halfway there.</quote>
+            <actionSuggestion>Encourage someone else today!</actionSuggestion>
+        </mood>
+    </moods>
+
+    <challenges>
+        <challenge id="1">Ask a question in class or a meeting.</challenge>
+        <challenge id="2">Give a genuine compliment to a stranger.</challenge>
+        <challenge id="3">Maintain eye contact during a conversation for at least 5 seconds.</challenge>
+        <challenge id="4">Initiate a small talk conversation (e.g., about the weather or weekend).</challenge>
+        <challenge id="5">Speak up clearly when ordering food or coffee.</challenge>
+    </challenges>
+
+    <scenarios>
+        <scenario id="interview">
+            <title>Job Interview</title>
+            <prompt>Introduce yourself confidently in 2-3 sentences.</prompt>
+            <sample>Hi, I'm [Name]. I have a background in [Field] and I am passionate about solving complex problems. I'm excited about this opportunity to contribute to your team.</sample>
+        </scenario>
+        <scenario id="stranger">
+            <title>Talking to a Stranger</title>
+            <prompt>Start a casual conversation with someone next to you.</prompt>
+            <sample>Hi there! I couldn't help but notice your book. Is it a good read?</sample>
+        </scenario>
+        <scenario id="presentation">
+            <title>Presentation</title>
+            <prompt>Open a presentation about a topic you love.</prompt>
+            <sample>Good morning everyone. Today, I'm thrilled to share with you why [Topic] is not just interesting, but absolutely essential for our future.</sample>
+        </scenario>
+    </scenarios>
+
+    <overthinking>
+        <advice>Pause. Look around and name 5 things you can see, 4 things you can touch, 3 things you can hear, 2 things you can smell, and 1 thing you can taste.</advice>
+        <advice>Is this going to matter in 5 years? If not, don't spend more than 5 minutes worrying about it.</advice>
+        <advice>You are not your thoughts. Let them pass like clouds in the sky.</advice>
+    </overthinking>
+
+    <quickReplies>
+        <reply context="greeting">How are you doing today?</reply>
+        <reply context="agreement">That's a really interesting point. Tell me more!</reply>
+        <reply context="stuck">I'm not sure, but let me think about it and get back to you.</reply>
+    </quickReplies>
+</appData>
